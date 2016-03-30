@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700|Source+Sans+Pro:400,600);
+
+h1 {
+  font-size: 64px;
+  font-family: "Arvo";
+  width: 100%;
+  text-align: center;
+
+}
+
+p {
+  font-family: "Source Sans Pro";
+}
+
+nav ul li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+}
+
+nav {
+  text-align: center;
+}
+address
+{
+  text-align: center;
+}
+h2 {
+  font-family: "Arvo";
+  text-align: center;
+}
+
+h3{
+  font-family: "Arvo";
+}
+
+a:link,a:hover,a:visited,a:active {
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: pink;
+}
+
+a:link {
+  text-decoration: underline;
+
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: green;
+}
+
+p {
+  font-family: "Source Sans Pro";
+}
+
+
+
+section {
+  border: 1px solid black;
+  padding: 25px;
+  margin-bottom: 8px;
+}
+
+.col1 {
+  float: left;
+  width: 425px;
+
+}
+
+.col2 {
+  float: right;
+  width: 425px;
+}
+
+.container {
+  width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
