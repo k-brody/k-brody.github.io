@@ -20,6 +20,15 @@ nav {
   display: none;
 }
 
+ul {
+display: none;
+}
+
+li {
+  display: none;
+}
+
 h1 {
+  text-align: center;
   font-size: 24pt
 }
