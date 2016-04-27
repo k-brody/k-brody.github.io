@@ -2,15 +2,42 @@
 
 @import url(https://fonts.googleapis.com/css?family=Quicksand:700,400);
 
-h1 {
-  font-size: 45px;
+#home h1 {
+  font-size: 35px;
   position: relative;
   font-size-adjust: auto;
-  font-style: "Quicksand"
+  font-style: "Quicksand";
+  position: fixed;
+}
+
+#about h1 {
+  font-size: 35px;
+  position: relative;
+  font-size-adjust: auto;
+  font-style: "Quicksand";
+  position: fixed;
+}
+
+#clips h1 {
+font-size: 35px;
+position: relative;
+font-size-adjust: auto;
+font-style: "Quicksand";
+position: fixed;
+}
+
+#contact h1 {
+  font-size: 35px;
+  position: relative;
+  font-size-adjust: auto;
+  font-style: "Quicksand";
+  position: fixed;
 }
 
 nav {
-  width: 50%;
+  width: 25%;
+  float: none;
+  padding: 2em;
 
 }
 
