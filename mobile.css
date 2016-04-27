@@ -1,0 +1,38 @@
+@media (max-width: 320px) {
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:700,400);
+
+h1 {
+  font-size: 45px;
+  position: relative;
+  font-size-adjust: auto;
+  font-style: "Quicksand"
+}
+
+nav {
+  width: 50%;
+
+}
+
+ul {
+  width: 50%;
+
+}
+
+li {
+  font-size: 12px;
+}
+
+body {
+  min-width: 0px;
+  height: 100px;
+}
+
+#about {
+  float: none;
+  width: 50%;
+}
+
+.break_word {
+  width: auto;
+}

@@ -1,91 +1,192 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:700|Source+Sans+Pro:400,600);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:700,400);
 
-h1 {
-  font-size: 64px;
-  font-family: "Arvo";
-  width: 100%;
-  text-align: center;
-
+body {
+  font-family: "Quicksand";
 }
 
-p {
-  font-family: "Source Sans Pro";
+body#home{
+  background-image: url("skyline-buildings.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-nav ul li {
-  display: inline-block;
-  width: 100px;
-  text-align: center;
-  font-family: "Source Sans Pro";
+
+ #about main {
+  width: 960px;
+  max-width: 710px;
+  overflow: auto;
 }
 
-nav {
-  text-align: center;
-}
-address
-{
-  text-align: center;
-}
-h2 {
-  font-family: "Arvo";
-  text-align: center;
-}
-
-h3{
-  font-family: "Arvo";
-}
-
-a:link,a:hover,a:visited,a:active {
+a, a:hover, a:visited,{
   text-decoration: none;
 
 }
 
-a:hover {
-  color: pink;
+a {
+  color: #ff7eed;
 }
 
-a:link {
-  text-decoration: underline;
+h1 {
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 85px;
+}
+
+#home h1{
+
+font-size: 100px;
 
 }
 
-a:visited {
-  color: purple;
-}
-
-a:active {
-  color: green;
-}
-
-p {
-  font-family: "Source Sans Pro";
-}
-
-
-
-section {
-  border: 1px solid black;
-  padding: 25px;
-  margin-bottom: 8px;
-}
-
-.col1 {
+nav {
   float: left;
-  width: 425px;
+}
+nav ul {
+list-style-type: none;
+margin-right: 50px;
+padding: 0;
+width: 200px;
+font-size: 35px;
+background-color: #ff7eed;
+}
+
+#home nav ul {
+  background-color: #f1f1f1;
 
 }
 
-.col2 {
+
+nav li a {
+display: block;
+ padding: 8px 9px 8px 8px;
+text-decoration: none;
+ color: #000;
+
+}
+
+#home nav li a {
+  color: #ff7eed;
+}
+
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#home nav li a:hover {
+  color: white
+}
+
+#about {
+  margin-top: 0;
+  width: 900px;
   float: right;
-  width: 425px;
+  padding: 35px;
+  position:fixed;
+  margin-left: 350px;
+
 }
 
-.container {
-  width: 960px;
-  display: block;
-  margin: 0 auto;
+
+#about img {
+  width: 350px;
+  height: 500px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  margin-left: 0px;
+
 }
 
-.bold {
-  font-weight: bold;
+#about p {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  padding: 42px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 154px;
+  height: 416px;
+  float: left;
+  justify-content: center;
+}
+
+#about section p{
+  margin-top: 0;
+  border: 1px solid #222;
+  padding: 1em 0 0 1em;
+  min-height: 390px;
+
+}
+
+#contact table tr td {
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+#contact table {
+  border-collapse: collapse;
+  float: right;
+  position: fixed;
+  margin-left: 350px;
+  max-width: 710px;
+  margin-top: 70px;
+
+}
+
+#contact tr td {
+  padding: 30px;
+}
+
+#contact a:hover {
+  color: #ddd;
+}
+
+#contact td {
+  font-size: 20px;
+}
+
+#clips main {
+  width: 600px;
+  height: 350px;
+  margin-left: 350px;
+  overflow: auto;
+}
+
+#clips section {
+  width: 180px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  float: left;
+  height: 180px;
+  background-color: #ddd;
+  padding: 3px;
+}
+
+#clips1 section {
+  float: left;
+  /*padding-left: 200px;*/
+}
+
+#clips2 section {
+  float: left;
+  /*padding-left: 75px;*/
+}
+
+#clips section:nth-child(3n) {
+  margin-right: 0;
+}
+
+#clips p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#clips a:link {
+  text-decoration: none;
+}
+
+#clips a:hover {
+  color: #ffffff;
 }
